@@ -8,7 +8,7 @@ namespace Quest05
         {
             double inputC = double.Parse(Console.ReadLine());
             MathService service = new MathService();
-            double outputF = service.Degrees(inputC);
+            double outputF = service.GetDegrees(inputC);
             Console.WriteLine(outputF);
         }
     }

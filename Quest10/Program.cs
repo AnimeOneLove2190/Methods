@@ -9,7 +9,8 @@ namespace Quest10
             int inputNumberOne = int.Parse(Console.ReadLine());
             int inputNumberTwo = int.Parse(Console.ReadLine());
             MathService service = new MathService();
-            service.Swap(ref inputNumberOne, ref inputNumberTwo);
+            string result = service.Swap(ref inputNumberOne, ref inputNumberTwo);
+            Console.WriteLine(result);
         }
     }
 }

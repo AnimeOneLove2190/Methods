@@ -8,7 +8,8 @@ namespace Quest04
         {
             int numberOne = int.Parse(Console.ReadLine());
             MathService service = new MathService();
-            service.Check(numberOne);
+            bool result = service.IsEven(numberOne);
+            Console.WriteLine(result);
         }
     }
 }

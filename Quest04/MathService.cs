@@ -6,11 +6,11 @@ namespace Quest04
 {
     class MathService
     {
-        public void Check(int number)
+        public bool IsEven(int number)
         {
             int resultOne = number % 2;
             bool resuktTwo = resultOne == 0;
-            Console.WriteLine(resuktTwo);
+            return resuktTwo;
         }
     }
 }

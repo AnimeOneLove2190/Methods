@@ -6,7 +6,7 @@ namespace Quest05
 {
     class MathService
     {
-        public double Degrees(double c)
+        public double GetDegrees(double c)
         {
             double f = 1.8 * c + 32;
             return f;

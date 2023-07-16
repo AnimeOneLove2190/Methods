@@ -6,7 +6,7 @@ namespace Quest07
 {
     class MathService
     {
-        public int Area(int length, int width)
+        public int GetArea(int length, int width)
         {
             int result = length * width;
             return result;

@@ -6,7 +6,7 @@ namespace Quest01
 {
     class TextService
     {
-        public string Greetings(string nameOne)
+        public string GetGreetings(string nameOne)
         {
             string helloOne = $"Привет, {nameOne}!";
             return helloOne;

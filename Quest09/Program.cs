@@ -8,7 +8,7 @@ namespace Quest09
         {
             int inputMinutes = int.Parse(Console.ReadLine());
             CalendarService service = new CalendarService();
-            int result = service.HoursInMinutes(inputMinutes);
+            int result = service.GetHoursInMinutes(inputMinutes);
             Console.WriteLine(result);
         }
     }

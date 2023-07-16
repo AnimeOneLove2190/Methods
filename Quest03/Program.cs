@@ -12,13 +12,13 @@ namespace Quest03
             if (point.x >= point.y)
             {
                 MathService service = new MathService();
-                int resultOne = service.Distance(point.y, point.x);
+                int resultOne = service.GetDistance(point.y, point.x);
                 Console.WriteLine(resultOne);
             }
             if (point.x < point.y)
             {
                 MathService service = new MathService();
-                int resultOne = service.Distance(point.x, point.y);
+                int resultOne = service.GetDistance(point.x, point.y);
                 Console.WriteLine(resultOne);
             }
         }

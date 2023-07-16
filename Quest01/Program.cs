@@ -8,7 +8,7 @@ namespace Quest01
         {
             TextService service = new TextService();
             string inputNameOne = Console.ReadLine();
-            string resultOne = service.Greetings(inputNameOne);
+            string resultOne = service.GetGreetings(inputNameOne);
             Console.WriteLine(resultOne);
         }
     }

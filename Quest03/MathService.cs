@@ -6,7 +6,7 @@ namespace Quest03
 {
     class MathService
     {
-        public int Distance(int numberMin, int numberMax)
+        public int GetDistance(int numberMin, int numberMax)
         {
             int result = numberMax - numberMin;
             return result;

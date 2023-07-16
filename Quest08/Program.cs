@@ -10,7 +10,7 @@ namespace Quest08
             int inputLength = int.Parse(Console.ReadLine());
             int inputHeight = int.Parse(Console.ReadLine());
             MathService service = new MathService();
-            int result = service.Capacity(inputLength, inputWidth, inputHeight);
+            int result = service.GetCapacity(inputLength, inputWidth, inputHeight);
             Console.WriteLine(result);
         }
     }

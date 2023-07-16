@@ -11,7 +11,7 @@ namespace Quest06
             string inputHouse = Console.ReadLine();
             string inputApart = Console.ReadLine();
             TextService service = new TextService();
-            string output = service.Address(inputCity, inputStreet, inputHouse, inputApart);
+            string output = service.GetAddress(inputCity, inputStreet, inputHouse, inputApart);
             Console.WriteLine(output);
         }
     }

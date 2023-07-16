@@ -7,7 +7,8 @@ namespace Quest02
         static void Main(string[] args)
         {
             MathService service = new MathService();
-            service.Interval(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+            bool result = service.IsInsideInterval(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+            Console.WriteLine(result);
         }
     }
 }

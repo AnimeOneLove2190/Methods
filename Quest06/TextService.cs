@@ -6,7 +6,7 @@ namespace Quest06
 {
     class TextService
     {
-        public string Address(string city, string street, string house, string apart)
+        public string GetAddress(string city, string street, string house, string apart)
         {
             string result = $"Город {city}, улица {street}, дом {house}, квартира {apart}";
             return result;

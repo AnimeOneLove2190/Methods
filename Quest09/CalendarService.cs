@@ -6,7 +6,7 @@ namespace Quest09
 {
     class CalendarService
     {
-        public int HoursInMinutes(int hours)
+        public int GetHoursInMinutes(int hours)
         {
             int minutes = hours * 60;
             return minutes;
